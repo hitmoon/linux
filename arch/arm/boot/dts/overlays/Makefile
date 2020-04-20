@@ -15,10 +15,12 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	allo-katana-dac-audio.dtbo \
 	allo-piano-dac-pcm512x-audio.dtbo \
 	allo-piano-dac-plus-pcm512x-audio.dtbo \
+	anyspi.dtbo \
 	apds9960.dtbo \
 	applepi-dac.dtbo \
 	at86rf233.dtbo \
 	audioinjector-addons.dtbo \
+	audioinjector-isolated-soundcard.dtbo \
 	audioinjector-ultra.dtbo \
 	audioinjector-wm8731-audio.dtbo \
 	audiosense-pi.dtbo \
@@ -50,12 +52,14 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	gpio-poweroff.dtbo \
 	gpio-shutdown.dtbo \
 	hd44780-lcd.dtbo \
+	hdmi-backlight-hwhack-gpio.dtbo \
 	hifiberry-amp.dtbo \
 	hifiberry-dac.dtbo \
 	hifiberry-dacplus.dtbo \
 	hifiberry-dacplusadc.dtbo \
 	hifiberry-dacplusadcpro.dtbo \
 	hifiberry-dacplusdsp.dtbo \
+	hifiberry-dacplushd.dtbo \
 	hifiberry-digi.dtbo \
 	hifiberry-digi-pro.dtbo \
 	hy28a.dtbo \
@@ -100,6 +104,7 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	mcp3202.dtbo \
 	mcp342x.dtbo \
 	media-center.dtbo \
+	merus-amp.dtbo \
 	midi-uart0.dtbo \
 	midi-uart1.dtbo \
 	miniuart-bt.dtbo \
@@ -143,6 +148,7 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	sdhost.dtbo \
 	sdio.dtbo \
 	sdtweak.dtbo \
+	sh1106-spi.dtbo \
 	smi.dtbo \
 	smi-dev.dtbo \
 	smi-nand.dtbo \
@@ -166,6 +172,8 @@ dtbo-$(CONFIG_ARCH_BCM2835) += \
 	spi6-1cs.dtbo \
 	spi6-2cs.dtbo \
 	ssd1306.dtbo \
+	ssd1306-spi.dtbo \
+	ssd1351-spi.dtbo \
 	superaudioboard.dtbo \
 	sx150x.dtbo \
 	tc358743.dtbo \

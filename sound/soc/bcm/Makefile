@@ -13,6 +13,7 @@ snd-soc-googlevoicehat-codec-objs := googlevoicehat-codec.o
 
 # BCM2708 Machine Support
 snd-soc-hifiberry-dacplus-objs := hifiberry_dacplus.o
+snd-soc-hifiberry-dacplushd-objs := hifiberry_dacplushd.o
 snd-soc-hifiberry-dacplusadc-objs := hifiberry_dacplusadc.o
 snd-soc-hifiberry-dacplusadcpro-objs := hifiberry_dacplusadcpro.o
 snd-soc-hifiberry-dacplusdsp-objs := hifiberry_dacplusdsp.o
@@ -25,6 +26,7 @@ snd-soc-iqaudio-dac-objs := iqaudio-dac.o
 snd-soc-i-sabre-q2m-objs := i-sabre-q2m.o
 snd-soc-audioinjector-pi-soundcard-objs := audioinjector-pi-soundcard.o
 snd-soc-audioinjector-octo-soundcard-objs := audioinjector-octo-soundcard.o
+snd-soc-audioinjector-isolated-soundcard-objs := audioinjector-isolated-soundcard.o
 snd-soc-audiosense-pi-objs := audiosense-pi.o
 snd-soc-digidac1-soundcard-objs := digidac1-soundcard.o
 snd-soc-dionaudio-loco-objs := dionaudio_loco.o
@@ -40,6 +42,7 @@ snd-soc-rpi-wm8804-soundcard-objs := rpi-wm8804-soundcard.o
 
 obj-$(CONFIG_SND_BCM2708_SOC_GOOGLEVOICEHAT_SOUNDCARD)  += snd-soc-googlevoicehat-codec.o
 obj-$(CONFIG_SND_BCM2708_SOC_HIFIBERRY_DACPLUS) += snd-soc-hifiberry-dacplus.o
+obj-$(CONFIG_SND_BCM2708_SOC_HIFIBERRY_DACPLUSHD) += snd-soc-hifiberry-dacplushd.o
 obj-$(CONFIG_SND_BCM2708_SOC_HIFIBERRY_DACPLUSADC) += snd-soc-hifiberry-dacplusadc.o
 obj-$(CONFIG_SND_BCM2708_SOC_HIFIBERRY_DACPLUSADCPRO) += snd-soc-hifiberry-dacplusadcpro.o
 obj-$(CONFIG_SND_BCM2708_SOC_HIFIBERRY_DACPLUSDSP) += snd-soc-hifiberry-dacplusdsp.o
@@ -52,6 +55,7 @@ obj-$(CONFIG_SND_BCM2708_SOC_IQAUDIO_DAC) += snd-soc-iqaudio-dac.o
 obj-$(CONFIG_SND_BCM2708_SOC_I_SABRE_Q2M) += snd-soc-i-sabre-q2m.o
 obj-$(CONFIG_SND_AUDIOINJECTOR_PI_SOUNDCARD) += snd-soc-audioinjector-pi-soundcard.o
 obj-$(CONFIG_SND_AUDIOINJECTOR_OCTO_SOUNDCARD) += snd-soc-audioinjector-octo-soundcard.o
+obj-$(CONFIG_SND_AUDIOINJECTOR_ISOLATED_SOUNDCARD) += snd-soc-audioinjector-isolated-soundcard.o
 obj-$(CONFIG_SND_AUDIOSENSE_PI) += snd-soc-audiosense-pi.o
 obj-$(CONFIG_SND_DIGIDAC1_SOUNDCARD) += snd-soc-digidac1-soundcard.o
 obj-$(CONFIG_SND_BCM2708_SOC_DIONAUDIO_LOCO) += snd-soc-dionaudio-loco.o
